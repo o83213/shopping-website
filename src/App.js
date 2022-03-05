@@ -1,5 +1,5 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 /////
 import AuthPage from './pages/AuthPage'
 import HomePage from './pages/HomePage'
