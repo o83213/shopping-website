@@ -1,0 +1,65 @@
+.deal {
+  background: url('../../images/deal-bg.jfif');
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem 6%;
+  height: 20rem;
+}
+
+.deal .content {
+  max-width: 50rem;
+}
+
+.deal .content .title {
+  font-size: 2rem;
+  color: black;
+  margin: 0%;
+}
+
+.deal .content p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0;
+  color: var(--black);
+  margin: 0.5rem 0;
+}
+
+.deal .content .count-down {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.deal .content .count-down .box {
+  width: 6rem;
+  text-align: center;
+  border: 0.1rem solid rgb(0, 0, 0, 0.3);
+}
+
+.deal .content .count-down .box h3 {
+  color: black;
+  margin: 0%;
+  background: #fff;
+  height: 4rem;
+  line-height: 4rem;
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+.deal .content .count-down .box span {
+  display: block;
+  background: black;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.deal .buttonBox {
+  margin-top: 1rem;
+}
+.deal a {
+  border: 0.1rem solid black;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.5rem;
+}

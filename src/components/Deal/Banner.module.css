@@ -1,0 +1,45 @@
+.banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 6%;
+}
+
+.banner-container .banner {
+  flex: 1 1 20rem;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+}
+.banner-container .banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner-container .banner .content {
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  color: black;
+  transform: translateY(50%);
+}
+
+.banner-container .banner .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  margin: 0.1rem 0.5rem;
+}
+
+.banner-container .banner .content p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: black;
+  margin: 0.4rem;
+}
+.banner-container .banner .content a {
+  text-decoration: none;
+}
+
+.banner-container .banner img:hover {
+  transform: scale(1.2) rotate(-5deg);
+}

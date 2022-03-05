@@ -1,0 +1,64 @@
+.box {
+  flex: 1 1 20rem;
+  text-align: center;
+  padding: 1rem;
+  border: 0.1rem solid rgb(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.box img {
+  height: 12rem;
+  border-radius: 30%;
+}
+
+.box .discount {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: var(--gray);
+  color: var(--black);
+  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+.box h3 {
+  margin: 0.2rem 0;
+  color: black;
+  font-size: 2rem;
+}
+
+.box .price {
+  font-size: 1.8rem;
+  color: #333;
+  padding: 0.5rem 0;
+}
+
+.box .price span {
+  font-size: 1.5rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.box .quantity {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.box span {
+  padding: 0.7rem;
+  font-size: 1.5rem;
+}
+
+.box input {
+  background: rgb(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  width: 6rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.726);
+}

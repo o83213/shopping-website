@@ -1,0 +1,57 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--logoBlue);
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.item h2 {
+  margin: 0 0 0.5rem 0;
+  color: #363636;
+  font-size: 1.5rem;
+}
+.summary {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.price {
+  font-weight: bold;
+  color: var(--logoBlue);
+  margin-right: 2rem;
+}
+
+.amount {
+  font-weight: bold;
+  color: var(--logoBlue);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.item button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--logoBlue);
+  border: 1px solid var(--logoBlue);
+  width: 10rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.25rem;
+}
+
+.item button:hover {
+  background-color: var(--buttonBlue);
+  color: white;
+}

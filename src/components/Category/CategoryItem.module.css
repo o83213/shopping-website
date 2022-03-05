@@ -1,0 +1,33 @@
+.box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  flex: 1 1 10rem;
+}
+
+.box img {
+  width: 15rem;
+  height: 10em;
+  margin: 0.5rem 0;
+}
+
+.box h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+.box p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: rgb(20, 19, 19);
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

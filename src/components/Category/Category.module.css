@@ -1,0 +1,40 @@
+.category .heading {
+  text-align: center;
+}
+.category .box-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+
+.category .box-container .box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  flex: 1 1 10rem;
+}
+
+.category .box-container .box img {
+  width: 15rem;
+  height: 10em;
+  margin: 0.5rem 0;
+}
+
+.category .box-container .box h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.category .box-container .box p {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #666;
+  padding: 0.5rem 0;
+}
+.category .box-container .box .btn {
+  text-decoration: none;
+  display: block;
+}
