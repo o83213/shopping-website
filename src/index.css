@@ -9,6 +9,23 @@
   --gray: rgb(255, 255, 255, 0.5);
   --white: #fff;
   --cartOrange: #8a2b06;
+  /* font-size: 20px; */
+}
+@media (max-width: 1280px) {
+  * {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  * {
+    font-size: 50%;
+  }
+}
+@media (max-width: 768px) {
+  * {
+    font-size: 35%;
+  }
 }
 
 body {

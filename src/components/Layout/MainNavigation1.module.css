@@ -19,6 +19,7 @@
 .logo span {
   color: var(--logoBlue);
   margin-right: 0.5rem;
+  font-size: 2rem;
 }
 .header button {
   padding: 0.5rem 0.5rem;
