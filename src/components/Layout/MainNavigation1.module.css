@@ -8,7 +8,7 @@
   padding: 0 10%;
 }
 
-.logo {
+.header .logo {
   display: flex;
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
@@ -16,7 +16,7 @@
   margin: 0;
   padding: 1rem;
 }
-.logo span {
+.header .logo span {
   color: var(--logoBlue);
   margin-right: 0.5rem;
   font-size: 2rem;
